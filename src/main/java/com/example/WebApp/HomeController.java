@@ -16,4 +16,10 @@ public class HomeController {
     public String greetingThais() {
         return "Hello, Thais!";
     }
+    
+    @RequestMapping("/teste")
+    public @ResponseBody String helloTeste() {
+        return "Endpoint funcionando!";
+    }
+
 }
